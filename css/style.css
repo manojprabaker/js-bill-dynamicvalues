@@ -1,0 +1,53 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+body{
+	font-size:16px;
+}
+.bill-container {
+	width:50%;
+	margin:auto;
+}
+.bill-title {
+	text-align:center;
+	
+	margin-top:5rem;
+}
+.bill-row {
+	text-align:center;
+	margin-top:2rem;
+}
+.bill-col-left{
+	
+	padding:1rem;
+	box-shadow: 5px 5px 10px #be9ef5;
+}
+.bill-col,.tip-col,.total-col {
+	margin:2rem;
+	display:flex;
+	justify-content:space-around;
+	
+}
+.bill-title h2{
+	font-size:2rem;
+	margin-bottom:1rem;
+	font-family: 'Raleway', sans-serif;
+	color:#47498f;
+}
+.bill-title p{
+	font-size:0.9rem;
+	font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+label {
+	/* margin-right:20px; */
+	font-family: "Open Sans", sans-serif;
+	color:#222;
+}
+.final-amount {
+	font-size:1.5rem;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+}
